@@ -1,0 +1,29 @@
+@media screen and (min-width:200px) and (max-width:550px) {
+    .container-dep {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .categoria-dep img {
+        width: 15vw;
+    }
+
+    .categoria-dep h2 {
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    /* contenido */
+    .contenido-dep {
+        width: 80%;
+        /* border: 1px solid red; */
+    }
+
+    .contenido-dep img {
+        width: 6vw;
+    }
+
+    .contenido-dep h3 {
+        font-size: 4vw;
+    }
+}

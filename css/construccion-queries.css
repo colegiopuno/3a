@@ -1,0 +1,26 @@
+@media screen and (min-width:200px) and (max-width:550px){
+    .container-construccion img{
+        width: 27vw;
+    }
+    .container-construccion h3{
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (min-width:551px) and (max-width:750px){
+    .container-construccion img{
+        width: 21vw;
+    }
+    .container-construccion h3{
+        font-size: 3.5vw;
+    }
+}
+
+@media screen and (min-width:751px) and (max-width:1024px){
+    .container-construccion img{
+        width: 15vw;
+    }
+    .container-construccion h3{
+        font-size: 2.5vw;
+    }
+}

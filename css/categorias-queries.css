@@ -1,0 +1,99 @@
+/* primer check point */
+@media screen and (min-width:200px) and (max-width:550px) {
+    main{
+        width: 100%;
+    }
+    .container{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .categoria{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .categoria img{
+        width: 15vw;
+    }
+    .categoria h2{
+        font-size: 4.2vw;
+    }
+    .categoria a{
+       
+        font-size: 4.2vw;
+       
+    }
+    
+}
+
+/* segundo check point */
+@media screen and (min-width:551px) and (max-width:750px){
+    main{
+        width: 100%;
+    }
+    .container{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .categoria{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .categoria img{
+        width: 14vw;
+    }
+    .categoria h2{
+        font-size: 3.2vw;
+    }
+    .categoria a{
+       
+        font-size: 3.2vw;
+       
+    }
+}
+
+
+
+/* tercer check point  ipad*/
+@media screen and (min-width:751px) and (max-width:1024px){
+    main{
+        width: 100%;
+    }
+    .container{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .categoria{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .categoria img{
+        width: 13vw;
+    }
+    .categoria h2{
+        font-size: 2.5vw;
+    }
+    .categoria a{
+       
+        font-size: 2.5vw;
+       
+    }
+}
+
+/* cuarto check point  laptops*/
+@media screen and (min-width:1025px) and (max-width:1240px){
+    
+    .categoria img{
+        width: 5vw;
+    }
+    .categoria h2{
+        font-size: 1.5vw;
+    }
+    .categoria a{
+       
+        font-size: 1.5vw;
+       
+    }
+}
