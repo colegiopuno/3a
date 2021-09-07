@@ -1,0 +1,25 @@
+/* primer check point */
+@media screen and (min-width:200px) and (max-width:550px) {
+    main{
+        width: 100%;
+    }
+    
+    .container-bloques{
+        
+        flex-wrap: wrap;
+    }
+    
+    .bloque-uno{
+        margin-right: 0;
+    }
+    .bloque-uno a{
+        width: 100%;
+    }
+     .bloque-dos{
+         margin-left: 0;
+     }
+    .bloque-dos a{
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+}

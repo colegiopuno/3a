@@ -1,44 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-body{
+
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
-nav{
+
+nav {
     padding: 20px;
     display: flex;
-    background: #444444; 
+    background: #444444;
 }
-nav a{
+
+nav a {
     padding: 0 20px;
     text-decoration: none;
     color: #f2f2f2;
     font-size: 1em;
     font-weight: 300;
 }
+
 /* main */
 
-main{
+main {
     width: 90%;
     margin: auto;
-    background: #f2f2f2;
-    padding:  30px;
+    /* background: #f2f2f2; */
+
+    background: linear-gradient(to right, rgba(29, 37, 113, 0.787), rgba(195, 55, 99, 0.835));
+
+    padding: 30px;
     border-radius: 10px;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 15px;
     margin-top: 15px;
 }
 
-.categoria{
+.categoria {
     width: 20%;
     display: flex;
     flex-direction: column;
@@ -48,19 +57,22 @@ main{
     padding: 20px;
     justify-content: center;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, .3);
+    background: #f2f2f2;
 }
-.categoria img{
+
+.categoria img {
     width: 6vw;
     margin-bottom: 15px;
 }
-.categoria h2{
+
+.categoria h2 {
     text-align: center;
     font-weight: 300;
     font-size: 1.1vw;
     margin-bottom: 15px;
 }
 
-.categoria a{
+.categoria a {
     background: #39A2DB;
     padding: 20px 40px;
     color: #f2f2f2;
@@ -69,16 +81,17 @@ main{
     border-radius: 40px;
     transition: background 1s;
 }
-.categoria a:hover{
+
+.categoria a:hover {
     background: #053742;
-    
+
 }
 
 /* footer */
-footer{
+footer {
     background: #171717;
     padding: 30px;
     color: #f2f2f2;
     text-align: center;
-    
+
 }
